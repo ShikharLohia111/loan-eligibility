@@ -10,4 +10,4 @@ langchain-core
 matplotlib
 seaborn
 keras
-tensorflow==2.9.0
+tensorflow==2.13.0
