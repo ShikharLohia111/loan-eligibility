@@ -7,7 +7,7 @@ import tensorflow as tf
 import pickle
 
 # Load the pre-trained Keras model
-model = tf.keras.models.load_model('loan_eligibility_model.h5')
+model = tf.keras.models.load_model('loan_eligibility_model.keras')
 
 # Load label encoder (you need to save the LabelEncoder used for encoding categorical variables)
 

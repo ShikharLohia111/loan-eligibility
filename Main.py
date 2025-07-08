@@ -107,7 +107,7 @@ logistic_model.fit(X_train_scaled, y_train)
 logistic_preds = logistic_model.predict(X_val_scaled)
 print("Logistic Regression Accuracy:", accuracy_score(y_val, logistic_preds))
 
-model.save('loan_eligibility_model.h5')
+model.save('loan_eligibility_model.keras')
 print("Model saved as loan_eligibility_model.h5")
 
 
